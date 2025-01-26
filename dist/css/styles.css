@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Grayscale v7.0.6 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2023 Start Bootstrap
+* Copyright 2013-2025 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
 */
 /*!
@@ -11201,3 +11201,6 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.en, .cn, .tw { display:none; } /* hide all elements with a language class */
+.en:lang(en), .cn:lang(cn), .tw:lang(tw) { display:block; } /* show those elements that match their language class */

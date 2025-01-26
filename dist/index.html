@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <title>Annie Heqing Huang 黄禾清</title>
+        <link rel="icon" type="image/png" href="assets/favicon.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -14,21 +14,41 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script>
+            function changeLanguage(lang) {
+                document.documentElement.lang = lang;
+            }
+        </script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
+                <div class="en"><a class="navbar-brand" href="#page-top">Annie Heqing Huang</a></div>
+                <div class="cn"><a class="navbar-brand" href="#page-top">黄禾清</a></div>
+                <div class="tw"><a class="navbar-brand" href="#page-top">黃禾清</a></div>
+                <div class="d-flex">
+                    <div class="btn-group me-3 ">
+                        <button class="btn btn-sm btn-outline-light nav-link" onclick="changeLanguage('en')">EN</button>
+                        <button class="btn btn-sm btn-outline-light nav-link" onclick="changeLanguage('cn')">简体</button>
+                        <button class="btn btn-sm btn-outline-light nav-link" onclick="changeLanguage('tw')">繁体</button>
+                    </div>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item en"><a class="nav-link" href="#about">Book</a></li>
+                        <li class="nav-item en"><a class="nav-link" href="#projects">About</a></li>
+                        <li class="nav-item en"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item cn"><a class="nav-link" href="#about">书籍</a></li>
+                        <li class="nav-item cn"><a class="nav-link" href="#projects">关于</a></li>
+                        <li class="nav-item cn"><a class="nav-link" href="#signup">联系</a></li>
+                        <li class="nav-item tw"><a class="nav-link" href="#about">書籍</a></li>
+                        <li class="nav-item tw"><a class="nav-link" href="#projects">關於</a></li>
+                        <li class="nav-item tw"><a class="nav-link" href="#signup">聯繫</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,9 +58,18 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+                        <h1 class="mx-auto my-0 text-uppercase en">Annie Heqing Huang</h1>
+                        <h1 class="mx-auto my-0 text-uppercase cn">黄禾清</h1>
+                        <h1 class="mx-auto my-0 text-uppercase tw">黃禾清</h1>
+
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5 en">A voice that transcends borders.</h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5 cn">一个跨越边界的声音。</h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5 tw">一個跨越邊界的聲音。</h2>
+
+                        <div class="en"><a class="btn btn-primary" href="#about">Read more</a></div>
+                        <div class="cn"><a class="btn btn-primary" href="#about">更多</a></div>
+                        <div class="tw"><a class="btn btn-primary" href="#about">更多</a></div>
+
                     </div>
                 </div>
             </div>
@@ -50,15 +79,22 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
-                        <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                        <h2 class="text-white mb-4 en">The Happiest Place</h2>
+                        <h2 class="text-white mb-4 cn">菲蒙随笔</h2>
+                        <h2 class="text-white mb-4 tw">菲蒙隨筆</h2>
+                        <p class="text-white-50 en">
+                            Annie Heqing Huang is a passionate writer and the editor-in-chief of the North Texas Chinese Literary Association. With a deep love for classical poetry and literary works, she brings a unique perspective to her writing. After a decade of work as an electrical engineer, Annie moved to the United States, where she earned multiple advanced degrees and began publishing her heartfelt essays. Her work reflects her experiences as an immigrant, blending cultural insights with personal stories of family, nature, and life in America.
+                        </p>
+                        <p class="text-white-50 cn">
+                            黄禾青是一位充满热情的作家，同时担任北德州华文文学协会的主编。她对古典诗词和文学作品怀有深厚的热爱，为她的写作注入了独特的视角。在从事电气工程工作十年后，黄禾青移居美国，取得了多个高等学位，并开始发表真挚感人的散文作品。她的文章融入了移民生活的亲身体验，将文化感悟与家庭、自然以及美国生活的个人故事巧妙结合，展现了深刻而生动的人生视角。
+                        </p>
+                        <p class="text-white-50 tw">
+                            黃禾青是一位充滿熱情的作家，同時擔任北德州華文文學協會的主編。她對古典詩詞和文學作品懷有深厚的熱愛，為她的寫作注入了獨特的視角。在從事電機工程工作十年後，黃禾青移居美國，取得了多個高等學位，並開始發表真摯感人的散文作品。她的文章融入了移民生活的親身體驗，將文化感悟與家庭、自然以及美國生活的個人故事巧妙結合，展現了深刻而生動的人生視角。
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
+                <div class="en"><img class="img-fluid" src="assets/img/book-cover-1.png" alt="..." /></div>
+                <div class="cn tw"><img class="img-fluid" src="assets/img/book-cover-cn.jpeg" alt="..." /></div>
             </div>
         </section>
         <!-- Projects-->
@@ -66,30 +102,62 @@
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/fremont-lake-elizabeth.jpg" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5 en">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>About the book</h4>
+                            <p class="text-black-50 mb-0">This book is a collection of essays by Annie Huang, written during her time in Fremont, California. Captivated by the city's peacefulness and beauty, she reflects on how it brought a sense of harmony and freedom to her life. Her essays cover her experiences as a new immigrant, from cultural exchanges and her child's growth in a multicultural environment to encounters at work and with family. Through her sincere, concise, and humorous writing, Annie explores the transformation of a new immigrant adapting to a foreign life. Her essays have been widely published in major Chinese-language newspapers in the U.S., garnering praise from readers.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 cn">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>关于本书</h4>
+                            <p class="text-black-50 mb-0">本书是黄禾青在加州弗里蒙特生活期间创作的一系列散文集。她为这座城市的宁静与美丽深深吸引，并在书中反思了这种环境如何为她的生活带来了和谐与自由的感受。散文内容涵盖了她作为新移民的经历，从文化交流、孩子在多元文化环境中的成长，到工作和家庭中的点滴故事。通过真挚、简洁且富有幽默感的笔触，黄禾青深入探讨了新移民适应异国生活的转变过程。她的散文曾在美国主流中文报刊上广泛发表，受到读者的高度赞誉。</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 tw">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>關於本書</h4>
+                            <p class="text-black-50 mb-0">本書是黃禾青在加州弗里蒙特生活期間創作的一系列散文集。她為這座城市的寧靜與美麗深深吸引，並在書中反思了這種環境如何為她的生活帶來了和諧與自由的感受。散文內容涵蓋了她作為新移民的經歷，從文化交流、孩子在多元文化環境中的成長，到工作和家庭中的點滴故事。透過真誠、簡潔且富有幽默感的筆觸，黃禾青深入探討了新移民適應異國生活的轉變過程。她的散文曾在美國主流中文報刊上廣泛發表，受到讀者的高度讚譽。</p>
                         </div>
                     </div>
                 </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/annie-h-huang.jpg" alt="..." /></div>
+                    <div class="col-lg-6 en">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 class="text-white">About the author</h4>
+                                    <p class="mb-0 text-white-50">Annie Heqing Huang is the editor-in-chief of the North Texas Chinese Literary Association. A lifelong lover of classical poetry and literature, she has always found inspiration in the written word. After earning a degree in Electrical Engineering from Zhengzhou University in China, she spent ten years working as an electrical engineer. In 2002, she moved to the United States to pursue advanced studies at California State University, East Bay, where she earned two Master's degrees—one in Public Administration and another in Healthcare Administration. Today, she works for a government department in California.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 cn">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">关于作者</h4>
+                                    <p class="mb-0 text-white-50">黄禾青是北德州华文文学协会的主编。她热爱古典诗词和文学，一直从文字中汲取灵感。黄女士毕业于中国郑州大学，获得电气工程学位，并在电气工程领域工作了十年。2002年，她移居美国，在加州州立大学东湾分校攻读研究生，先后获得公共管理和医疗管理两个硕士学位。如今，她在加州的一家政府部门工作。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 tw">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">關於作者</h4>
+                                    <p class="mb-0 text-white-50">黃禾青是北德州華文文學協會的主編。她熱愛古典詩詞和文學，一直從文字中汲取靈感。黃女士畢業於中國鄭州大學，獲得電機工程學位，並在電機工程領域工作了十年。 2002年，她移居美國，在加州州立大學東灣分校攻讀研究生，先後獲得公共管理和醫療管理兩個碩士學位。如今，她在加州的政府部門工作。</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
+                <!-- <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
@@ -101,16 +169,19 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- Signup-->
+
         <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+                        <h2 class="text-white mb-5 en">Subscribe to receive updates!</h2>
+                        <h2 class="text-white mb-5 cn">订阅以获取最新动态！</h2>
+                        <h2 class="text-white mb-5 tw">訂閱以獲取最新動態！</h2>
                         <!-- * * * * * * * * * * * * * * *-->
                         <!-- * * SB Forms Contact Form * *-->
                         <!-- * * * * * * * * * * * * * * *-->
@@ -120,9 +191,17 @@
                         <!-- to get an API token!-->
                         <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+                            <div class="row input-group-newsletter en">
+                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address." aria-label="Enter email address." data-sb-validations="required,email" /></div>
+                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Submit</button></div>
+                            </div>
+                            <div class="row input-group-newsletter cn">
+                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="输入电子邮件地址。" aria-label="输入电子邮件地址。" data-sb-validations="required,email" /></div>
+                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">订阅</button></div>
+                            </div>
+                            <div class="row input-group-newsletter tw">
+                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="输入电子邮件地址。" aria-label="输入电子邮件地址。" data-sb-validations="required,email" /></div>
+                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">订阅</button></div>
                             </div>
                             <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
                             <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
@@ -148,11 +227,12 @@
                 </div>
             </div>
         </section>
+
         <!-- Contact-->
         <section class="contact-section bg-black">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
+                    <!-- <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
@@ -161,18 +241,18 @@
                                 <div class="small text-black-50">4923 Market Street, Orlando FL</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
+                    </div> -->
+                    <!-- <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50"><a href="#!">anniehhq@yahoo.com</a></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
+                    </div> -->
+                    <!-- <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
@@ -181,17 +261,18 @@
                                 <div class="small text-black-50">+1 (555) 902-8832</div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <!-- <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a> -->
+                    <a class="mx-2" href="https://www.facebook.com/profile.php?id=100010995812484"><i class="fab fa-facebook-f"></i></a>
+                    <!-- <a class="mx-2" href="#!"><i class="fab fa-github"></i></a> -->
+                    <a class="mx-2" href="mailto:anniehhq@yahoo.com"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; 2024. All rights reserved.</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
